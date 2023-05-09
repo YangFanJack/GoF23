@@ -1,0 +1,5 @@
+package BehavioralPatterns.iInterpreterPattern;
+
+public interface Expression {
+    public boolean interpret(String context);
+}
